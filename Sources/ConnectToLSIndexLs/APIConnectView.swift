@@ -43,7 +43,7 @@ public struct ConnectView: View {
         VStack {
             // logo Litesoft (basse def) et titre
             Group{
-                Image("LogoLS", .bundle: .module)
+                Image("LogoLS", bundle: .module)
                     .resizable()
                     .scaledToFit()
                     .frame(width: 220)
